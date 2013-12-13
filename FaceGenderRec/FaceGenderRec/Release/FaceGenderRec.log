@@ -1,0 +1,39 @@
+﻿生成启动时间为 2013/10/27 17:54:50。
+     1>项目“C:\Users\Eric\Desktop\FaceGenderRec\FaceGenderRec\FaceGenderRec.vcxproj”在节点 2 上(build 个目标)。
+     1>PrepareForBuild:
+         正在创建目录“C:\Users\Eric\Desktop\FaceGenderRec\Release\”。
+       InitializeBuildStatus:
+         正在创建“Release\FaceGenderRec.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         d:\Installed Software\VS2010\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt demo.cpp detectObject.cpp ImageUtils_0.7.cpp preprocessFace.cpp recognition.cpp
+         demo.cpp
+     1>demo.cpp(133): warning C4101: “e”: 未引用的局部变量
+     1>demo.cpp(144): warning C4101: “e”: 未引用的局部变量
+     1>demo.cpp(155): warning C4101: “e”: 未引用的局部变量
+         detectObject.cpp
+         ImageUtils_0.7.cpp
+         preprocessFace.cpp
+     1>d:\installed software\opencv2.4.6\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Installed Software\VS2010\VC\include\stdio.h(234) : 参见“fopen”的声明
+         recognition.cpp
+     1>d:\installed software\opencv2.4.6\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Installed Software\VS2010\VC\include\stdio.h(234) : 参见“fopen”的声明
+       Link:
+         d:\Installed Software\VS2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Eric\Desktop\FaceGenderRec\Release\FaceGenderRec.exe" /INCREMENTAL:NO /NOLOGO opencv_calib3d246.lib opencv_contrib246.lib opencv_core246.lib opencv_features2d246.lib opencv_flann246.lib opencv_gpu246.lib opencv_highgui246.lib opencv_imgproc246.lib opencv_legacy246.lib opencv_ml246.lib opencv_objdetect246.lib opencv_ts246.lib opencv_video246.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\FaceGenderRec.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Eric\Desktop\FaceGenderRec\Release\FaceGenderRec.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Eric\Desktop\FaceGenderRec\Release\FaceGenderRec.lib" /MACHINE:X86 Release\demo.obj
+         Release\detectObject.obj
+         Release\ImageUtils_0.7.obj
+         Release\preprocessFace.obj
+         Release\recognition.obj
+         正在生成代码
+         已完成代码的生成
+         FaceGenderRec.vcxproj -> C:\Users\Eric\Desktop\FaceGenderRec\Release\FaceGenderRec.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Eric\Desktop\FaceGenderRec\Release\FaceGenderRec.exe;#1" /manifest Release\FaceGenderRec.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Release\FaceGenderRec.unsuccessfulbuild”。
+         正在对“Release\FaceGenderRec.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\Eric\Desktop\FaceGenderRec\FaceGenderRec\FaceGenderRec.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.56
